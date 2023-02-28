@@ -333,3 +333,43 @@ body {
     color: hsl(270, 7%, 64%);
     font-size: 17px;
 }
+
+@media screen and (max-width: 1172px) {
+
+    .background {
+        left: -250px;
+        width: 400px;
+        height: 600px;
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .phone {
+        position: absolute;
+        left: -300px;
+        top: -500px;
+    }
+
+    .right-box {
+        text-align: center;
+        margin-top: 5rem;
+        width: 300px;
+        position: relative;
+        top: 0;
+        right: 210px;
+    }
+
+    .desc-title {
+        font-size: medium;
+    }
+
+    .desc {
+        gap: 0;
+        position: absolute;
+        top: 50px;
+        left: -50px;
+    }
+}
