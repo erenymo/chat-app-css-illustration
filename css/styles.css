@@ -46,8 +46,8 @@ body {
     z-index: -1;
     top: 0;
     left: -105px;
-    width: 665px;
-    height: 930px;
+    width: 550px;
+    height: 700px;
     background: linear-gradient(to bottom left, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
     border-bottom-left-radius: 325px;
     border-bottom-right-radius: 325px;
@@ -74,12 +74,12 @@ body {
 
 .phone {
     position: absolute;
-    left: 19px;
-    top: -300px;
+    left: -100px;
+    top: -400px;
     background-color: hsl(270, 20%, 96%);
     box-shadow: 0px 10px 50px #888888;
-    width: 300px;
-    height: 640px;
+    width: 250px;
+    height: 550px;
     border-radius: 1.5rem;
     outline: 15px solid white;
 }
@@ -97,8 +97,8 @@ body {
 .top-of-screen {
     position: absolute;
     top: 0;
-    left: 63px;
-    width: 173px;
+    left: 65px;
+    width: 130px;
     height: 25px;
     background-color: white;
     border-bottom-left-radius: 1.17rem;
@@ -191,14 +191,14 @@ body {
 /* phone body */
 
 .phone-body {
-    font-size: 11px;
+    font-size: 9.1px;
     margin: 12px 10px;
 }
 
 .message-top {
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.4rem;
 }
 .chat-left {
     width: 60%;
@@ -207,17 +207,17 @@ body {
 }
 
 .chat-left p {
-    padding: 10px;
+    padding: 7px;
     color: hsl(276, 55%, 52%);
 }
 
 /* middle message */
 .message-middle {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 0.4rem;
 }
 .message-3 {
     display: flex;
@@ -231,7 +231,7 @@ body {
 
 .chat-right {
     position: relative;
-    left: 108px;
+    left: 90px;
     width: 61%;
     background-color: white;
     border-radius: 0.7rem;
@@ -242,18 +242,17 @@ body {
 }
 .message-5 {
     position: relative;
-    top: -4px;
-    left: 168px;
+    left: 138px;
     width: 40%;
 }
 
 /* message bottom */
 
 .message-bottom {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.4rem;
 }
 
 .button {
@@ -297,7 +296,7 @@ body {
     color: white;
     background-color: hsl(271, 36%, 24%);
     position: relative;
-    left: 125px;
+    left: 90px;
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -314,9 +313,9 @@ body {
 
 .right-box {
     position: relative;
-    left: 90px;
-    top: 10px;
-    width: 70%;
+    bottom: 100px;
+    right: 180px;
+    width: 50%;
 }
 
 .desc {
@@ -325,12 +324,12 @@ body {
     gap: 2rem;
 }
 .desc-title {
-    font-size: 26px;
+    font-size: 20px;
     color: hsl(271, 36%, 24%);
 }
 
 .desc-p {
     line-height: 1.6;
     color: hsl(270, 7%, 64%);
-    font-size: 20px;
+    font-size: 17px;
 }
