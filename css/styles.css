@@ -350,7 +350,7 @@ body {
     .phone {
         position: absolute;
         left: -300px;
-        top: -450px;
+        top: -400px;
     }
 
     .right-box {
@@ -369,7 +369,7 @@ body {
     .desc {
         gap: 0;
         position: absolute;
-        top: 50px;
+        top: 150px;
         left: -50px;
     }
 }
